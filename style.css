@@ -106,9 +106,22 @@ h5 {
 .service-box img {
     width: 125px;
 }
+#team {
+    padding: 75px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+#team p {
+    width: 60%;
+    margin: 10px auto;
+}
 #team .section-text {
     font-size: 1.9em;
     text-align: center;
+}
+#team hr {
+    margin: 20px auto 30px;
+    width:40%
 }
 #team .member-name {
     font-size: 1.5em;

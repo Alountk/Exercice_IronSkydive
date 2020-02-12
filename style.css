@@ -139,6 +139,10 @@ h5 {
     font-style: normal;
     font-size: 0.8em;
 }
+.footer {
+    padding: 40px 100px;
+    margin: 0 0 25px 0;
+}
 .footer a {
     color: rgb(67, 163, 230);
     text-decoration: none;
@@ -155,4 +159,13 @@ h5 {
 }
 .container h4 {
     margin-bottom: 15px;
+}
+.schedule-table {
+    margin: 0 auto 40px auto;
+    font-size: 1.5em;
+}
+.schedule-table th, td{
+    border-bottom: 1px solid black;
+    padding: 5px 10px;
+    text-align: center;
 }

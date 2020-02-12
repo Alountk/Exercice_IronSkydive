@@ -33,6 +33,7 @@ h3 {
     font-size: 4.2em;
     text-align: center;
     line-height: 1em;
+    margin: 0px;
 }
 h4 {
     font-size: 1.5em;
@@ -46,6 +47,15 @@ h5 {
 .nav-bar {
     background-color: rgb(25, 33, 41);
     color: white;
+    padding: 10px 0px;
+}
+.nav-bar-ul {
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav-bar-ul li{
+    list-style-type: none;
+    text-align: center;
 }
 .nav-bar a {
     font-size: 2em;
@@ -58,6 +68,7 @@ h5 {
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
+    padding-top: 50px;
 }
 .quote {
     font-size: 2.5em;
@@ -70,6 +81,7 @@ h5 {
     font-size: 2em;
     font-weight: 100;
     text-align: center;
+    margin-top: 20px;
 }
 .link-btn {
     background-color:rgb(67, 163, 230);
@@ -115,4 +127,9 @@ h5 {
 .footer ul{
     list-style: none;
     padding-inline-start: 0;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
 }
